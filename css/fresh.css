@@ -1,0 +1,159 @@
+
+.wrapper{
+    width: 1240px;
+    margin: 0 auto;
+}
+
+.xtx_sx{
+    width: 100%;
+    height: 1000px;
+    background-color: aliceblue;
+}
+
+.xtx_sx .wrapper{
+    height: 725px;
+}
+
+.xtx_sx .wrapper .header{
+    height: 115px;
+    width: 100%;
+}
+
+.xtx_sx .wrapper .header::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.xtx_sx .wrapper .header h3{
+    font-size: 32px;
+    font-weight: 500;
+    color:rgb(220, 130, 130);
+    margin-left: 6px;
+    width: 282px;
+   line-height: 115px;
+    float: left;
+}
+
+.xtx_sx .wrapper .header .more{
+    width: 80px;
+    height: 115px;
+    float: right;
+    line-height: 115px;
+}
+
+.xtx_sx .wrapper .header .more a{
+    color: #999;
+    display: block;
+    margin-top: 15px;
+}
+
+.xtx_sx .wrapper .header .more a:hover{
+    color: rgb(21, 214, 150);
+}
+
+.xtx_sx .class_panel_goods{
+        width: 1240px;
+        height: 610px;
+        position: relative;
+}
+
+.xtx_sx .class_panel_goods::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.xtx_sx .class_panel_goods .box1{
+    width: 240px;
+    height: 610px;
+    float: left;
+}
+
+.xtx_sx .class_panel_goods .box1 img{
+    width: 240px;
+    height: 610px;
+    position: relative;
+    top: 0;
+    transition: all .5s;
+}
+
+.xtx_sx .class_panel_goods .box1 img:hover{
+    top: -10px;
+    box-shadow: 5px 8px 5px;
+}
+
+.xtx_sx .class_panel_goods .box1 .span{
+    width: 188px;
+    height: 66px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    position: absolute;
+    left: 10px;
+    top: 400px;
+    text-align: center;
+    line-height: 66px;
+    font-size: 20px;
+}
+
+.xtx_sx .class_panel_goods .box2{
+    width: 1000px;
+    height: 610px;
+    float: left;
+}
+
+.xtx_sx .class_panel_goods .box2 ul li{
+    width: 240px;
+    height: 300px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.xtx_sx .class_panel_goods .box2 ul li .meta{
+    width: 238px;
+    height: 130px;
+    font-size: 17px;
+    text-align: center;
+
+}
+
+.xtx_sx .class_panel_goods .box2 ul li .meta .name{
+    width: 194px;
+    height: 49px;
+}
+
+.xtx_sx .class_panel_goods .box2 ul li .meta .flag{
+    width: 194px;
+    height: 24px;
+}
+
+.xtx_sx .class_panel_goods .box2 ul li .meta .price{
+    width: 41px;
+    height: 28px;
+    font-size: 25px;
+    color: rgb(217, 70, 70);
+    padding-left: 10px;
+}
+
+
+.xtx_sx .class_panel_goods .box2 ul li img{
+    width: 165px;
+    height: 160px;
+}
+
+.xtx_sx .class_panel_goods .box2 ul li a{
+    margin-left: 20px;
+}
+
+.xtx_sx .class_panel_goods .box2 img{
+    position: relative;
+    top: 0;
+    transition: all .5s;
+}
+
+.xtx_sx .class_panel_goods .box2 img:hover{
+    top: -5px;
+    box-shadow: 2px 2px 2px;
+}
+

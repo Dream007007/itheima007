@@ -1,0 +1,155 @@
+.wrapper{
+    width: 1240px;
+    margin: 0 auto;
+}
+
+.xtx_jj{
+    width: 100%;
+    height: 725px;
+}
+
+.xtx_jj .wrapper{
+    height: 725px;
+}
+
+.xtx_jj .wrapper .header{
+    height: 115px;
+    width: 100%;
+}
+
+.xtx_jj .wrapper .header::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.xtx_jj .wrapper .header h3{
+    font-size: 32px;
+    font-weight: 500;
+    color: #333;
+    margin-left: 6px;
+    width: 282px;
+   line-height: 115px;
+    float: left;
+    color: rgb(218, 59, 59);
+}
+
+
+.xtx_jj .wrapper .header .more{
+    width: 80px;
+    height: 18px;
+    float: right;
+}
+
+.xtx_jj .wrapper .header .more a{
+    color: #999;
+    display: block;
+    margin-top: 10px;
+    line-height: 115px;
+}
+
+.xtx_jj .wrapper .header .more a:hover{
+    color: rgb(19, 239, 166);
+}
+
+.xtx_jj .class_panel_jj{
+    width: 1240px;
+    height: 610px;
+    position: relative;
+}
+
+.xtx_jj .class_panel_jj::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.xtx_jj .class_panel_jj .box1{
+    width: 240px;
+    height: 610px;
+    float: left;
+}
+
+.xtx_jj .class_panel_jj .box1 img{
+    width: 240px;
+    height: 610px;
+    position: relative;
+    top: 0px;
+    transition: all .5s;
+}
+
+.xtx_jj .class_panel_jj .box1 img:hover{
+    top: -10px;
+    box-shadow: 5px 8px 5px;
+}
+
+.xtx_jj .class_panel_jj .box1 .span{
+width: 240px;
+height: 66px;
+background-color: rgba(0, 0, 0, 0.8);
+color: white;
+position: absolute;
+left: 0px;
+top: 500px;
+text-align: center;
+line-height: 66px;
+font-size: 20px;
+}
+
+.xtx_jj .class_panel_jj .box2{
+width: 1000px;
+height: 610px;
+float: left;
+}
+
+.xtx_jj .class_panel_jj .box2 ul li{
+width: 240px;
+height: 300px;
+float: left;
+margin-left: 10px;
+margin-top: 10px;
+}
+
+.xtx_jj .class_panel_jj .box2 ul li .meta{
+width: 238px;
+height: 130px;
+font-size: 17px;
+text-align: center;
+
+}
+
+.xtx_jj .class_panel_jj .box2 ul li .meta .name{
+width: 194px;
+height: 49px;
+}
+
+.xtx_jj .class_panel_jj .box2 ul li .meta .flag{
+width: 194px;
+height: 24px;
+}
+
+.xtx_jj .class_panel_jj .box2 ul li .meta .price{
+width: 41px;
+height: 28px;
+font-size: 25px;
+color: rgb(217, 70, 70);
+padding-left: 10px;
+}
+
+
+.xtx_jj .class_panel_jj .box2 ul li img{
+width: 165px;
+height: 160px;
+position: relative;
+top: 0px;
+transition: all .5s;
+}
+
+.xtx_jj .class_panel_jj .box2 ul li img:hover{
+    top: -2px;
+    box-shadow: 2px 2px 2px;
+}
+
+.xtx_jj .class_panel_jj .box2 ul li a{
+    margin-left: 30px;
+}
